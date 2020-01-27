@@ -1,0 +1,200 @@
+.gallery {
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  &__box-1 {
+    background: url("/assets/Images/Photo-gallery-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+
+  &__box-2 {
+    background: url("/assets/Images/Photo-gallery-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-3 {
+    background: url("/assets/Images/Photo-gallery-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-4 {
+    background: url("/assets/Images/Photo-gallery-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-5 {
+    background: url("/assets/Images/Photo-gallery-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-6 {
+    background: url("/assets/Images/Photo-gallery-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-7 {
+    background: url("/assets/Images/Photo-gallery-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-8 {
+    background: url("/assets/Images/Photo-gallery-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 16px;
+  }
+  &__box-9 {
+    background: url("/assets/Images/Photo-gallery-9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+    margin-bottom: 40px;
+  }
+}
+
+@include medium {
+  .gallery {
+    &__box {
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+      justify-content: space-between;
+    }
+    &__box-1 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-2 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+
+    &__box-3 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-4 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-5 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-6 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-7 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+
+    &__box-8 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+    &__box-9 {
+      width: 31%;
+      height: 126px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@include large {
+  .gallery {
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    &__box-1 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-2 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+
+    &__box-3 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-4 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-5 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-6 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-7 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+
+    &__box-8 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+    &__box-9 {
+      width: 31.5%;
+      height: 193px;
+      margin-bottom: 24px;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.contact {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: $black;
+  color: $white;
+  height: 550px;
+  padding-top: 20px;
+
+  &__list-3 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icon-1 {
+    background-image: url("/assets/Icons/SVG/Icon-facebook.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .icon-2 {
+    background-image: url("/assets/Icons/SVG/Icon-instagram.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+  }
+  .icon-3 {
+    background-image: url("/assets/Icons/SVG/Icon-twitter.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+  }
+}
+
+@include medium {
+  .contact {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    &__list-1 {
+      width: 31%;
+      order: 1;
+      margin-left: 5vw;
+    }
+    &__list-2 {
+      order: 2;
+      width: 31%;
+      align-content: center;
+    }
+    &__list-3 {
+      display: block;
+      visibility: visible;
+      width: 31%;
+      order: 3;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &__list-4 {
+      width: 31%;
+      order: 4;
+      margin-left: 5vw;
+    }
+
+    &__list-5 {
+      width: 31%;
+      order: 7;
+      margin-left: 5vw;
+    }
+    &__list-6 {
+      order: 10;
+      width: 31%;
+      margin-left: 5vw;
+    }
+    &__list-7 {
+      width: 31%;
+      order: 5;
+    }
+    &__list-8 {
+      width: 31%;
+      order: 8;
+    }
+    &__list-9 {
+      width: 31%;
+      order: 11;
+    }
+    &__list-10 {
+      width: 31%;
+      order: 6;
+    }
+    &__list-11 {
+      width: 31%;
+      order: 9;
+    }
+    &__list-12 {
+      width: 31%;
+      order: 12;
+    }
+    &__list-13 {
+      width: 40vw;
+      order: 13;
+      margin-left: 5vw;
+    }
+    .icon {
+      display: flex;
+      justify-content: none;
+      align-content: center;
+    }
+  }
+}

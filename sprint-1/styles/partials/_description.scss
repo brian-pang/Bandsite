@@ -1,0 +1,58 @@
+.description {
+  background-color: $alabster;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  &__container {
+    background-image: url("/assets/Images/Photo-gallery-11.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 90vw;
+    height: 160px;
+
+    &__text {
+      margin-bottom: 40px;
+    }
+    &__text-content {
+      margin-bottom: 40px;
+      color: $silver;
+    }
+  }
+  h2 {
+    margin-top: 32px;
+  }
+}
+
+@include medium {
+  .description {
+    &__container {
+      height: 362px;
+    }
+    &__text-content {
+      display: flex;
+      flex-wrap: row;
+    }
+    &__text-content-1 {
+      width: 45%;
+    }
+
+    &__text-content-2 {
+      width: 45%;
+      margin-left: 5%;
+    }
+  }
+}
+
+@include large {
+  .description {
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    &__container {
+      height: 450px;
+      width: unset;
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
+  }
+}

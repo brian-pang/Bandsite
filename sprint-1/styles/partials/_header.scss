@@ -1,0 +1,38 @@
+.header {
+  height: 80px;
+  width: 100vw;
+  background-color: $black;
+  padding-top: 0.5rem;
+  text-align: center;
+
+  &__logo {
+    margin-top: 8px;
+    height: 20px;
+    width: auto;
+  }
+  &__menu {
+    display: flex;
+    margin-top: 16px;
+  }
+
+  &__menu-1 {
+    color: $white;
+    list-style-type: none;
+    text-decoration: none;
+
+    width: 50%;
+  }
+  &__menu-2 {
+    color: $white;
+    list-style-type: none;
+    text-decoration: none;
+
+    width: 50%;
+  }
+}
+
+@include medium {
+  .header {
+    flex-direction: row;
+  }
+}
