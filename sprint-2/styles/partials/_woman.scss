@@ -1,0 +1,30 @@
+.woman {
+  background-image: url("/sprint-1/assets/Images/Background-image-1.jpg");
+  height: 472px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    margin-top: 64px;
+    margin-left: 5vw;
+    color: $white;
+  }
+  &__title {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: $white;
+    margin-bottom: 64px;
+  }
+
+  &__song {
+    display: flex;
+    height: 120px;
+    width: 100vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
